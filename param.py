@@ -1,5 +1,5 @@
 # coding=utf-8
-# Copyleft 2019 project LXRT.
+# Copy from lxmert with modifications
 
 import argparse
 import random
@@ -44,7 +44,7 @@ def parse_args():
     parser.add_argument('--batchSize', dest='batch_size', type=int, default=32)
     parser.add_argument('--optim', default='bert')
     parser.add_argument('--lr', type=float, default=1e-4)
-    parser.add_argument('--epochs', type=int, default=4)
+    parser.add_argument('--epochs', type=int, default=2)
     parser.add_argument('--dropout', type=float, default=0.1)
     parser.add_argument('--seed', type=int, default=9595, help='random seed')
     parser.add_argument('--max_seq_length', type=int, default=20, help='max sequence_length')
