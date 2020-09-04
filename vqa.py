@@ -171,7 +171,7 @@ if __name__ == "__main__":
     # Load VQA model weights
     # Note: It is different from loading LXMERT pre-trained weights.
     if args.load_trained is not None:
-        vqa.load(args.load)
+        vqa.load(args.load_trained)
 
     # Test or Train
     if args.test is not None:
