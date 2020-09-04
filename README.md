@@ -50,8 +50,9 @@ unzip data/img/test2015_obj36.zip -d data && rm data/img/test2015_obj36.zip
 ```sh
 python vqa.py --tiny
 ```
-**5** If no error pops up, you are good to go. Please refer param.py for all settings. Here is an example of fine-tuning UNITER:
+**6** If no error pops up, you are good to go. Please refer param.py for all settings. Here is an example of fine-tuning UNITER:
 ```sh
-python vqa.py --tiny
+python vqa.py --model uniter --epochs 6 --max_seq_length 20 --load_pretrained models/pretrained/uniter-base.pt --output models/trained/
 ```
+**7** 
 
