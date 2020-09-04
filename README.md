@@ -48,7 +48,10 @@ unzip data/img/test2015_obj36.zip -d data && rm data/img/test2015_obj36.zip
 ```
 **5** Now you have fulfill all requirements and dependencies, run this command before fine-tuning on the entire training dataset:
 ```sh
-
+python vqa.py --tiny
 ```
-
+**5** If no error pops up, you are good to go. Please refer param.py for all settings. Here is an example of fine-tuning UNITER:
+```sh
+python vqa.py --tiny
+```
 
