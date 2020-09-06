@@ -79,8 +79,11 @@ python vqa.py --tiny
 python vqa.py --model uniter --epochs 6 --max_seq_length 20 --load_pretrained models/pretrained/uniter-base.pt --output models/trained/
 ```
 **7.a** Local validation with BEST config in step 6:
+```sh
 python vqa.py --test minival --load_trained models/trained/BEST
+```
 
 **7.b** Inference on VQA test split, results will be saved in models/trained/test_predict.json
+```sh
 python vqa.py --test test --load_trained models/trained/BEST
-
+```
