@@ -8,7 +8,7 @@ Now support: VisualBERT, LXMERT, and UNITER.
 - Our implementation is built on the great repo of [LXMERT](https://github.com/airsplay/lxmert).
 - Please consider citing the original work of V+L models if you adopt their pre-trained weights.
 - If you find our implementation helps, please consider cite this:)
-```sh
+```
 @misc{li2020comparison,
     title={A Comparison of Pre-trained Vision-and-Language Models for Multimodal Representation Learning across Medical Images and Reports},
     author={Yikuan Li and Hanyin Wang and Yuan Luo},
