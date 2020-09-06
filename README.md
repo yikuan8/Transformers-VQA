@@ -2,11 +2,29 @@
 An implementation of down-streaming trending pre-trained V+L models to VQA tasks. 
 Now support: VisualBERT, LXMERT, and UNITER.
 
+### Notes:
+
+- This is only a beta version, please feel free to leave an issue if you encounter any error.
+- Our implementation is built on the great repo of [LXMERT](https://github.com/airsplay/lxmert).
+- Please consider citing the original work of V+L models if you adopt their pre-trained weights.
+- If you find our implementation helps, please consider cite this:)
+```sh
+@misc{li2020comparison,
+    title={A Comparison of Pre-trained Vision-and-Language Models for Multimodal Representation Learning across Medical Images and Reports},
+    author={Yikuan Li and Hanyin Wang and Yuan Luo},
+    year={2020},
+    eprint={2009.01523},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
+
+
 ### USAGE
 
 ###**We provide an interactive example of fine-tuning your customized dataset using Google Colab.**
 
-###**[Colab Notebook]**(https://github.com/YIKUAN8/Transformers-VQA/blob/master/openI_VQA.ipynb)
+[Colab Notebook](https://github.com/YIKUAN8/Transformers-VQA/blob/master/openI_VQA.ipynb)
 
 
 Following is another example of fine-tuning VQA 2.0 dataset on a linux server.
