@@ -4,7 +4,11 @@ Now support: VisualBERT, LXMERT, and UNITER.
 
 ### USAGE
 
-Following is an example of fine-tuning VQA 2.0 dataset.
+We provide an interactive example of fine-tuning your customized dataset using Google Colab.
+[Colab Notebook]
+
+
+Following is another example of fine-tuning VQA 2.0 dataset on a linux server.
 
 **0**. Clone our repo.
 
