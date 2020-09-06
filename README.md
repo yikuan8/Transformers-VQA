@@ -4,8 +4,9 @@ Now support: VisualBERT, LXMERT, and UNITER.
 
 ### USAGE
 
-We provide an interactive example of fine-tuning your customized dataset using Google Colab.
-[Colab Notebook](https://github.com/YIKUAN8/Transformers-VQA/blob/master/openI_VQA.ipynb)
+###**We provide an interactive example of fine-tuning your customized dataset using Google Colab.**
+
+###**[Colab Notebook]**(https://github.com/YIKUAN8/Transformers-VQA/blob/master/openI_VQA.ipynb)
 
 
 Following is another example of fine-tuning VQA 2.0 dataset on a linux server.
