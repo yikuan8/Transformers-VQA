@@ -22,7 +22,7 @@ Now support: VisualBERT, LXMERT, and UNITER.
 
 ### USAGE
 
-###**We provide an interactive example of fine-tuning your customized dataset using Google Colab.**
+#### We provide an interactive example of fine-tuning your customized dataset using Google Colab.
 
 [Colab Notebook](https://github.com/YIKUAN8/Transformers-VQA/blob/master/openI_VQA.ipynb)
 
