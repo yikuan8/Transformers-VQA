@@ -52,23 +52,23 @@ wget https://convaisharables.blob.core.windows.net/uniter/pretrained/uniter-base
 ```
   **LXMERT:**
 ```sh
-wget --no-check-certificate https://nlp1.cs.unc.edu/data/model_LXRT.pth -P models/pretrained/
+wget https://nlp.cs.unc.edu/data/model_LXRT.pth -P models/pretrained/
 ```
 
 **3** Download re-distributed json files for VQA 2.0 (copy from airsplay/lxmert)
 ```sh
-wget --no-check-certificate https://nlp1.cs.unc.edu/data/lxmert_data/vqa/train.json -P data/
-wget --no-check-certificate https://nlp1.cs.unc.edu/data/lxmert_data/vqa/nominival.json -P  data/
-wget --no-check-certificate https://nlp1.cs.unc.edu/data/lxmert_data/vqa/minival.json -P data/
-wget --no-check-certificate https://nlp1.cs.unc.edu/data/lxmert_data/vqa/test.json -P data/
+wget https://nlp.cs.unc.edu/data/lxmert_data/vqa/train.json -P data/
+wget https://nlp.cs.unc.edu/data/lxmert_data/vqa/nominival.json -P  data/
+wget https://nlp.cs.unc.edu/data/lxmert_data/vqa/minival.json -P data/
+wget https://nlp.cs.unc.edu/data/lxmert_data/vqa/test.json -P data/
 ```
 **4** Download faster-rcnn features for MS COCO train2014 (17 GB) and val2014 (8 GB) images (copy from airsplay/lxmert), this process will take a while
 ```sh
-wget --no-check-certificate https://nlp1.cs.unc.edu/data/lxmert_data/mscoco_imgfeat/train2014_obj36.zip -P data/img
+wget https://nlp.cs.unc.edu/data/lxmert_data/mscoco_imgfeat/train2014_obj36.zip -P data/img
 unzip data/img/train2014_obj36.zip -d data/img && rm data/img/train2014_obj36.zip
-wget --no-check-certificate https://nlp1.cs.unc.edu/data/lxmert_data/mscoco_imgfeat/val2014_obj36.zip -P data/img
+wget https://nlp.cs.unc.edu/data/lxmert_data/mscoco_imgfeat/val2014_obj36.zip -P data/img
 unzip data/img/val2014_obj36.zip -d data && rm data/img/val2014_obj36.zip
-wget --no-check-certificate https://nlp1.cs.unc.edu/data/lxmert_data/mscoco_imgfeat/test2015_obj36.zip -P data/img
+wget https://nlp.cs.unc.edu/data/lxmert_data/mscoco_imgfeat/test2015_obj36.zip -P data/img
 unzip data/img/test2015_obj36.zip -d data && rm data/img/test2015_obj36.zip
 ```
 **5** Now you have fulfill all requirements and dependencies, run this command before fine-tuning on the entire training dataset:
