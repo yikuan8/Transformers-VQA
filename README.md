@@ -10,13 +10,13 @@ Now support: VisualBERT, LXMERT, and UNITER on Linux and [Google Colab](https://
 - Please consider citing the original work of V+L models if you adopt their pre-trained weights.
 - If you find our implementation helps, please consider citing this:)
 ```
-@misc{li2020comparison,
-    title={A Comparison of Pre-trained Vision-and-Language Models for Multimodal Representation Learning across Medical Images and Reports},
-    author={Yikuan Li and Hanyin Wang and Yuan Luo},
-    year={2020},
-    eprint={2009.01523},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@inproceedings{li2020comparison,
+  title={A comparison of pre-trained vision-and-language models for multimodal representation learning across medical images and reports},
+  author={Li, Yikuan and Wang, Hanyin and Luo, Yuan},
+  booktitle={2020 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},
+  pages={1999--2004},
+  year={2020},
+  organization={IEEE}
 }
 ```
 
